@@ -32,7 +32,7 @@ public class SnakeAndLadder
         
         while (position < 100)
         {
-            int diceRoll = random.nextInt(7);//0 to 6
+            int diceRoll = random.nextInt(6) + 1;
             position = position + diceRoll;
            
             if (ladders.containsKey(position))
