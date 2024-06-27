@@ -10,7 +10,7 @@ public class SnakeAndLadder {
 
         while (position < 100) {
             
-            int diceRoll = random.nextInt(7);
+            int diceRoll = random.nextInt(6) + 1;
             System.out.println("Rolled: " + diceRoll);
             c++;
             System.out.println("Number of Times Rolled: " + c);
