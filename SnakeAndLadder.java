@@ -1,5 +1,3 @@
-package bike;
-
 import java.util.Random;
 
 public class SnakeAndLadder {
