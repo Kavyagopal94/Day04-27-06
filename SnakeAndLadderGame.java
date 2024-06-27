@@ -31,7 +31,7 @@ public class SnakeAndLadderGame
 
         while (position < WINNING_POSITION)
         {
-            int dice = random.nextInt(7);//0 to 6
+            int dice = random.nextInt(6) + 1;
             position = position + dice;
 
             if (position > WINNING_POSITION) 
